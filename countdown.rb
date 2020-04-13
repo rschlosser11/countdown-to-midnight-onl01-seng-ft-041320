@@ -10,6 +10,8 @@ end
 
 def countdown_with_sleep(int)
   while int > 0
-  puts "#{int} SECOND(S)!"
-  sleep 60
+    puts "#{int} SECOND(S)!"
+    sleep 60
+    int -= 1
+  end
 end
